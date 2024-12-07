@@ -7,6 +7,12 @@ This repository presents the **Seven Staged Identity Recognition System Using Ki
 ## 📜 **Motivation**
 Most existing identity recognition systems operate in only three stages, which may lead to security vulnerabilities. This paper proposes a more robust seven-stage system to achieve nearly **99% accuracy** by combining cutting-edge technologies with a Kinect V2 sensor and additional hardware enhancements like macro lenses.
 
+### Link to the paper:
+- https://ieeexplore.ieee.org/abstract/document/9756435
+- DOI: https://doi.org/10.1109/CFIS54774.2022.9756435
+### Please cite:
+## 📝 **Citation**
+- Mousavi, Seyed Muhammad Hossein, and Atiye Ilanloo. "Seven staged identity recognition system using Kinect V. 2 sensor." 2022 9th Iranian Joint Congress on Fuzzy and Intelligent Systems (CFIS). IEEE, 2022.
 ---
 
 ## 🛠️ **System Architecture**
@@ -54,6 +60,7 @@ The Kinect V2 sensor captures both **color** and **depth data**, enabling robust
 ### **6. Decision Integration**
 - After all stages are processed, the system checks for consistency in the recognition results.
 - If all stages match, the identity is confirmed and the system halts with success; otherwise, it loops back for re-identification.
+![2](https://github.com/user-attachments/assets/63de1523-1ba8-49d7-8d42-dde8b65b5c94)
 
 ---
 
@@ -104,17 +111,6 @@ The system is designed for:
 - Integrate additional hardware for faster real-time processing.
 
 ---
-
-## 📚 **References**
-1. Mousavi, S. M. H., & Ilanloo, A. "Seven Staged Identity Recognition System Using Kinect V2 Sensor."
-2. Related works on edge detection, fuzzy systems, and machine learning.
-
----
-
-## 📝 **Citation**
-If you use this work, please cite:
-
-
 
 
 
